@@ -2,3 +2,50 @@ body{
     background-color: #212121;
     color: aliceblue;
 }
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.all-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#red { background-color: #ff4d4d; }
+#red:hover { background-color: #cc0000; }
+
+#blue { background-color: #4d79ff; }
+#blue:hover { background-color: #0033cc; }
+
+#green { background-color: #4dff4d; }
+#green:hover { background-color: #00cc00; }
+
+#yellow { background-color: #ffff4d; color: black; }
+#yellow:hover { background-color: #cccc00; }
+
+#orange { background-color: #ff9933; }
+#orange:hover { background-color: #cc6600; }
+
+#purple { background-color: #cc66ff; }
+#purple:hover { background-color: #9933cc; }
+
+#black { background-color: #4d4d4d; }
+#black:hover { background-color: #000000; }
