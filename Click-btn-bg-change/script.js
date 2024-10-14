@@ -9,3 +9,4 @@ all_btn.forEach((btn) => { // looping all_btn | allbtn like array so use foreach
     })
 })
 
+  
