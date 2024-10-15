@@ -1,0 +1,48 @@
+
+body {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/blue-black-abstract-background_1340-17010.jpg?t=st=1729010802~exp=1729014402~hmac=ebd3c5279fc504316aea5079d2ec602d352db6a6bf22094db3d51145db054d33&w=1800");
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.products div {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 200px; /* Set a fixed width */
+    height: auto; /* Allow height to adjust automatically */
+}
+
+.products div:hover {
+    transform: scale(1.05);
+}
+
+
+.products img {
+    width: 100%; /* Make image responsive to the container width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px;
+}
+.products p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+@media (max-width: 600px) {
+    .products div {
+        width: 150px; /* Smaller width for mobile */
+    }
+}
