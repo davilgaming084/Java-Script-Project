@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Random Password</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+</head>
+
+<body>
+    <div id="3d-model"></div>
+    <div class="container">
+        <h1>Random Password Generator</h1>
+        <input type="text" id="textinput" value="10" readonly>
+        <button id="copy">Copy</button>
+        <div class="controls">
+            <input id="range" type="range" value="8" min="8" max="100">
+            <label id="length">Length: 8</label>
+            <div class="checkboxes">
+                <input id="Number" type="checkbox"> <label for="Number">Include Numbers</label>
+                <input id="Charactar" type="checkbox"> <label for="Charactar">Include Characters</label>
+            </div>
+        </div>
+        <div id="floating-message" class="floating-message">Password Length Changed!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<!-- notes -->
+<!-- i made only simple html,css,js -->
+<!-- js logic app functionality mad by me /\ -->
+<!-- style bg img etc made by chatgpt --> 
+<!-- same effect on container div that what i am saying -->
+
+</html>
